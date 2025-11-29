@@ -53,8 +53,8 @@ export const EXERCISES: Exercise[] = [
         roadmap: [
             { level: 1, name: 'High Pull-ups', goal: '5 reps' },
             { level: 2, name: 'Jumping Muscle Up', goal: '5 reps' },
-            { level: 3, name: 'Negative Muscle Ups', goal: '5 reps' },
-            { level: 4, name: 'Muscle Ups', goal: 'Mastery' },
+            { level: 3, name: 'Negative Muscle Up', goal: '5 reps' },
+            { level: 4, name: 'Muscle Up', goal: 'Mastery' },
         ],
     },
     {
