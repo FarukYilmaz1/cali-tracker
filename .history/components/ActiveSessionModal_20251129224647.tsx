@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useWorkoutStore } from '@/store/workoutStore';
 import { EXERCISES } from '@/data/exercises';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from './ui/dialog';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from './ui/dialog';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { ScrollArea } from './ui/scroll-area';
@@ -59,8 +59,8 @@ export function ActiveSessionModal() {
                 <div className="bg-zinc-900/50 border-b border-white/5 p-6">
                     <div className="flex items-start justify-between mb-4">
                         <div>
-                            <DialogTitle className="text-2xl font-bold text-white tracking-tight">{displayExerciseName}</DialogTitle>
-                            <DialogDescription className="text-zinc-400 text-sm font-medium uppercase tracking-wider mt-1">Active Session</DialogDescription>
+                            <h2 className="text-2xl font-bold text-white tracking-tight">{displayExerciseName}</h2>
+                            <p className="text-zinc-400 text-sm font-medium uppercase tracking-wider mt-1">Active Session</p>
                         </div>
                         <div className="flex items-center gap-2 bg-emerald-500/10 px-3 py-1.5 rounded-full border border-emerald-500/20">
                             <Timer className="w-4 h-4 text-emerald-400" />
