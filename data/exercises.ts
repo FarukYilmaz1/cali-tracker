@@ -4,8 +4,8 @@ export const EXERCISES: Exercise[] = [
     // --- PUSH ---
     { id: 'push-1', name: 'Pushups', category: 'Push' },
     { id: 'push-2', name: 'Diamond Pushups', category: 'Push' },
-    { id: 'push-3', name: 'Decline Pushup', category: 'Push' },
-    { id: 'push-4', name: 'Explosive Pushup', category: 'Push' },
+    { id: 'push-3', name: 'Decline Pushups', category: 'Push' },
+    { id: 'push-4', name: 'Explosive Pushups', category: 'Push' },
     { id: 'push-5', name: 'Dips', category: 'Push' },
     { id: 'push-6', name: 'Pike Pushups', category: 'Push' },
     { id: 'push-7', name: 'Handstand Hold (Wall)', category: 'Push' },
@@ -16,8 +16,8 @@ export const EXERCISES: Exercise[] = [
     // --- PULL ---
     { id: 'pull-1', name: 'Australian Face Pull', category: 'Pull' },
     { id: 'pull-2', name: 'Supermans', category: 'Pull' },
-    { id: 'pull-3', name: 'Chin up', category: 'Pull' },
-    { id: 'pull-4', name: 'Pull up', category: 'Pull' },
+    { id: 'pull-3', name: 'Chin ups', category: 'Pull' },
+    { id: 'pull-4', name: 'Pull ups', category: 'Pull' },
     { id: 'pull-5', name: 'Wide Pull ups', category: 'Pull' },
 
     // --- ELITE SKILLS ---
